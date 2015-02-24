@@ -39,3 +39,4 @@ Thumbs.db
 
 manage.py
 *.png
+static/images/*
