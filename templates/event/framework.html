@@ -1,0 +1,19 @@
+{% extends 'framework.html' %}
+
+{% block secondnav %}
+	<nav class='navbar navbar-secondary'>
+		<div class='container'>
+			<ul class='nav navbar-nav narrow-nav'>
+				<li><a href="#">Guests</a></li>
+				<li><a href="#">Exhibitors</a></li>
+				<li><a href="#">Sponsors</a></li>
+				<li><a href="#">Bookings</a></li>
+			</ul>
+		</div>
+	</nav>
+{% endblock %}
+
+{% block content %}
+	{% block eventcontent %}
+	{% endblock %}	
+{% endblock %}
