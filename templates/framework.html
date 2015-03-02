@@ -23,33 +23,34 @@
 	<!-- // <script src='/static/js/django.js'></script> -->
 </head>
 
-<body style='background:url({% static 'images/bg_large.png' %})'>
+<body style='background:url({% static 'images/backgrounds/bg_large.png' %})'>
 
 
 	<div>
 		<a class='container' href='/'>
-			<img src='{% static 'images/logo_2015.png' %}' alt='2015 Logo' style='width: 500px;position: absolute;' />
+			<img src='{% static 'images/logos/logo_2015.png' %}' alt='2015 Logo' style='width: 500px;position: absolute;padding-top: 50px' />
 		</a>
 	</div>
 
 	<nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
 		<div class='modal fade'>
 			<div class='modal-dialog'>
-				<div class='modal-content' id='hoverdiv'>
+				<div class='modal-content'>
 					<div class='modal-header'>
 						<button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
-						<h4 class='modal-title'>Email</h4>
+						<h4 class='modal-title'><i class='fa'>Email</i></h4>
 					</div>
 
 					<div class='modal-body'>
-						<p>For any general questions or queries please email Brian:</p>
-						<p><em>brian@melkshamcomiccon.com</em></p>
+						<p><i class='fa'></i>For any general questions or queries please email Brian:</p>
+						<p><i class='fa'></i><em>brian@melkshamcomiccon.com</em></p>
 						<p></p>
-						<p>If you would like to contact a specific team please look at our Contact page for further information.</p>
+						<p><i class='fa'>If you would like to contact a specific team please look at our Contact page for further information.</i></p>
 					</div>
 				</div>
 			</div>
 		</div>
+
 		<div class='container-fluid'>
 			<div class='navbar-header'>
 				<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-navbar-collapse-2'>
@@ -64,7 +65,7 @@
 				<div class='collapse navbar-collapse' is='bs-navbar-collapse-2'>
 					<ul class='nav navbar-nav'>
 						<a class='navbar-brand' href='/'>
-							<img alt='MCC_Logo' src='{% static 'images/logo_2015.png' %}' style='width: 50px;'>
+							<img alt='MCC_Logo' src='{% static 'images/logos/logo_2015.png' %}' style='width: 50px;'>
 						</a>
 						<!-- <li><a href='/'><i class='fa'></i>Home</a></li> -->
 
@@ -72,8 +73,9 @@
 							<a data-toggle='dropdown' class='dropdown-toggle' href='#'><i class='fa'></i>About <b class='caret'></b></a>
 
 							<ul class='dropdown-menu'>
+								<li><a href='/about/history'><i class='fa-fw fa'></i>Details</a></li>
 								<li><a href='/about/brians'><i class='fa-fw fa'></i>Brians</a></li>
-								<li><a class='top-menu-disabled'><i class='fa-fw fa'></i>Location</a></li>
+								<li><a href='/about/location'><i class='fa-fw fa'></i>Location</a></li>
 							</ul>
 						</li>
 
@@ -122,7 +124,7 @@
 			{% block content %}
 			{% endblock %}
 		</div>
-		<div class='panel col-md-2 col-md-offset-1 text-center'>
+		<div class='panel col-md-3 text-center' style='margin-left: 30px;'>
 			<p><i class='fa'></i>Latest News</p>
 			<p></p>
 		</div>
@@ -134,16 +136,18 @@
 			<p class='col-md-4 text-left'>Site Map</p>
 			<p class='col-md-4 text-center'>Other</p>
 			<p class='col-md-4 text-right'>&copy;2015 Melksham Comic Con</p>
+			<p><i class='fa'></i></p>
+			<p><i class='fa'></i></p>
 		</footer>
 	</div>
 
 </body>
 
-<script src='{% static 'bootstrap/js/bootstrap.js' %}'></script>
 <script type='text/javascript'>
 	$('#email').click(function(){
 		$('.modal').modal(show=true);
 	})
 </script>
+
 
 </html>
