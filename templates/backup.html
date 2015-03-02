@@ -24,32 +24,13 @@
 </head>
 
 <body style='background:url({% static 'images/bg_large.png' %})'>
-
-
 	<div>
 		<a class='container' href='/'>
-			<img src='{% static 'images/logo_2015.png' %}' alt='2015 Logo' style='width: 500px;position: absolute;' />
+			<img src='{% static 'images/logo_2015.png' %}' alt='2015 Logo' style='width: 300px;' />
 		</a>
 	</div>
 
-	<nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
-		<div class='modal fade'>
-			<div class='modal-dialog'>
-				<div class='modal-content' id='hoverdiv'>
-					<div class='modal-header'>
-						<button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
-						<h4 class='modal-title'>Email</h4>
-					</div>
-
-					<div class='modal-body'>
-						<p>For any general questions or queries please email Brian:</p>
-						<p><em>brian@melkshamcomiccon.com</em></p>
-						<p></p>
-						<p>If you would like to contact a specific team please look at our Contact page for further information.</p>
-					</div>
-				</div>
-			</div>
-		</div>
+	<nav class='navbar navbar-inverse navbar-static-top' role='navigation'>
 		<div class='container-fluid'>
 			<div class='navbar-header'>
 				<button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#bs-navbar-collapse-2'>
@@ -60,13 +41,10 @@
 				</button>
 			</div>
 
-			<div class='container' style='font-size:15px;'>
+			<div class='container navbar-right' style='font-size:15px;'>
 				<div class='collapse navbar-collapse' is='bs-navbar-collapse-2'>
 					<ul class='nav navbar-nav'>
-						<a class='navbar-brand' href='/'>
-							<img alt='MCC_Logo' src='{% static 'images/logo_2015.png' %}' style='width: 50px;'>
-						</a>
-						<!-- <li><a href='/'><i class='fa'></i>Home</a></li> -->
+						<li><a href='/'><i class='fa'></i>Home</a></li>
 
 						<li class='dropdown'>
 							<a data-toggle='dropdown' class='dropdown-toggle' href='#'><i class='fa'></i>About <b class='caret'></b></a>
@@ -99,32 +77,34 @@
 						</li>					
 
 						<li><a href='/store'><i class='fa'></i>Store</a></li>
+
+						<a href='https://www.facebook.com/melkshamcomiccon' target='_blank'><i class='fa fa-facebook-official fa-2x fa-inverse pull-right' style='padding: 4px;'></i></a>
+						<a href='https://twitter.com/Melksham_Con' target='_blank'><i class='fa fa-twitter fa-2x fa-inverse pull-right' style='padding: 4px;'></i></a>
+
 					</ul>
-					<div class='navbar-text navbar-right'>
-						<a href='https://www.facebook.com/melkshamcomiccon' target='_blank'><i class='fa fa-facebook-official fa-lg fa-inverse' style='padding: 4px;'></i></a>
-						<a href='https://twitter.com/Melksham_Con' target='_blank'><i class='fa fa-twitter fa-lg fa-inverse' style='padding: 4px;'></i></a>
-						<a href='#' id='email'><i class='fa fa-envelope fa-lg fa-inverse'></i></a>
-					</div>
 				</div>
 			</div>
 		</div>
-
-
 	</nav>
 
-	{% block newscontent %}
+	{% block secondnav %}
 	{% endblock %}
 
-	<div class='container' style='min-height:200px;'></div>
+	<!-- <div class='container' style='min-height:200px;'></div> -->
 
 	<div class='container' style='min-height:500px;'>
 		<div class='row panel panel-default col-md-9' style='min-height:400px;'>
 			{% block content %}
 			{% endblock %}
 		</div>
-		<div class='panel col-md-2 col-md-offset-1 text-center'>
-			<p><i class='fa'></i>Latest News</p>
-			<p></p>
+		<div class='col-md-2 col-md-offset-1 text-center'>
+			<p><i class='fa'></i>Connect</p>
+			<p><a href='https://www.facebook.com/melkshamcomiccon' target='_blank'><i class='fa fa-facebook-official fa-3x'></i></a></p>
+			<p><a href='https://twitter.com/Melksham_Con' target='_blank'><i class='fa fa-twitter fa-3x'></i></a></p>
+			<p><a href='https://youtube.com' target='_blank'><i class='fa fa-youtube fa-3x'></i></a></p>
+			<p><i class='fa'></i></p>
+			<p><i class='fa'></i>Donate</p>
+			<p><a href='https://paypal.com' target='_blank'><i class='fa fa-paypal fa-3x'></i></a></p>
 		</div>
 	</div>
 
@@ -138,12 +118,5 @@
 	</div>
 
 </body>
-
-<script src='{% static 'bootstrap/js/bootstrap.js' %}'></script>
-<script type='text/javascript'>
-	$('#email').click(function(){
-		$('.modal').modal(show=true);
-	})
-</script>
 
 </html>
