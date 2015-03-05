@@ -42,10 +42,10 @@
 					</div>
 
 					<div class='modal-body'>
-						<p><i class='fa'></i>For any general questions or queries please email Brian:</p>
-						<p><i class='fa'></i><em>brian@melkshamcomiccon.com</em></p>
+						<p>For any general questions or queries please email Brian:</p>
+						<p><em>brian@melkshamcomiccon.com</em></p>
 						<p></p>
-						<p><i class='fa'>If you would like to contact a specific team please look at our Contact page for further information.</i></p>
+						<p>If you would like to contact a specific team please look at our <a href='/about/contact'>Contact</a> page for further information.</p>
 					</div>
 				</div>
 			</div>
@@ -70,37 +70,37 @@
 						<!-- <li><a href='/'><i class='fa'></i>Home</a></li> -->
 
 						<li class='dropdown'>
-							<a data-toggle='dropdown' class='dropdown-toggle' href='#'><i class='fa'></i>About <b class='caret'></b></a>
+							<a data-toggle='dropdown' class='dropdown-toggle' href='#'>About <b class='caret'></b></a>
 
 							<ul class='dropdown-menu'>
-								<li><a href='/about/history'><i class='fa-fw fa'></i>Details</a></li>
-								<li><a href='/about/brians'><i class='fa-fw fa'></i>Brians</a></li>
-								<li><a href='/about/location'><i class='fa-fw fa'></i>Location</a></li>
+								<li><a href='/about/history'>History</a></li>
+								<li><a href='/about/brians'>Brians</a></li>
+								<li><a href='/about/location'>Location</a></li>
 							</ul>
 						</li>
 
 						<li class='dropdown'>
-							<a data-toggle='dropdown' class='dropdown-toggle' href='#'><i class='fa'></i>Event <b class='caret'></b></a>
+							<a data-toggle='dropdown' class='dropdown-toggle' href='#'>Event <b class='caret'></b></a>
 
 							<ul class='dropdown-menu'>
-								<li><a class='top-menu-disabled' href='#'><i class='fa-fw fa'></i>Guests</a></li>
-								<li><a class='top-menu-disabled' href='#'><i class='fa-fw fa'></i>Exhibitors</a></li>
-								<li><a class='top-menu-disabled' href='#'><i class='fa-fw fa'></i>Sponsors</a></li>
+								<li><a href='/event/guests'>Guests</a></li>
+								<li class='disabled'><a href='#'>Exhibitors</a></li>
+								<li class='disabled'><a href='#'>Sponsors</a></li>
 								<li class='divider'></li>
-								<li><a class='top-menu-disabled' href='#'><i class='fa-fw fa'></i>Exhibitor Bookings</a></li>
+								<li class='disabled'><a href='#'>Exhibitor Bookings</a></li>
 							</ul>
 						</li>
 
 						<li class='dropdown'>
-							<a data-toggle='dropdown' class='dropdown-toggle' href='#'><i class='fa'></i>Media <b class='caret'></b></a>
+							<a data-toggle='dropdown' class='dropdown-toggle' href='#'>Media <b class='caret'></b></a>
 
 							<ul class='dropdown-menu'>
-								<li><a class='top-menu-disabled' href='#'><i class='fa-fw fa'></i>Gallery</a></li>
-								<li><a class='top-menu-disabled' href='#'><i class='fa-fw fa'></i>Videos</a></li>
+								<li class='disabled'><a href='#'>Gallery</a></li>
+								<li class='disabled'><a href='#'>Videos</a></li>
 							</ul>
 						</li>					
 
-						<li><a href='/store'><i class='fa'></i>Store</a></li>
+						<li><a href='/store/store'>Store</a></li>
 					</ul>
 					<div class='navbar-text navbar-right'>
 						<a href='https://www.facebook.com/melkshamcomiccon' target='_blank'><i class='fa fa-facebook-official fa-lg fa-inverse' style='padding: 4px;'></i></a>
@@ -114,8 +114,6 @@
 
 	</nav>
 
-	{% block newscontent %}
-	{% endblock %}
 
 	<div class='container' style='min-height:200px;'></div>
 
@@ -126,20 +124,28 @@
 		</div>
 		<div class='panel col-md-3 text-center' style='margin-left: 30px;'>
 			<p><i class='fa'></i>Latest News</p>
+			{% block newscontent %}
+			{% endblock %}
 			<p></p>
 		</div>
 	</div>
 
-	<div class='container'>
-		<footer>
+	<footer class='footer'>
+		<div class='container'>
 			<hr>
-			<p class='col-md-4 text-left'>Site Map</p>
-			<p class='col-md-4 text-center'>Other</p>
-			<p class='col-md-4 text-right'>&copy;2015 Melksham Comic Con</p>
+			<div class='col-md-4 text-left'>
+				<p></p>
+			</div>
+			<div class='col-md-4 text-center'>
+				<p><a href='/about/contact'>Contact Us</a></p>
+			</div>
+			<div class='col-md-4 text-right'>
+				<p>&copy;2015 Melksham Comic Con</p>
+			</div>
 			<p><i class='fa'></i></p>
 			<p><i class='fa'></i></p>
-		</footer>
-	</div>
+		</div>
+	</footer>
 
 </body>
 

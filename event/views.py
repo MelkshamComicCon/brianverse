@@ -12,12 +12,12 @@ def event(request):
 
 	return render_to_response('event/event.html', content, context)
 
-# def brians(request):
-# 	# request the context of the request.
-# 	# the context contains information such as the client's machine details, for example
-# 	context = RequestContext(request)
+def guests(request):
+	# request the context of the request.
+	# the context contains information such as the client's machine details, for example
+	context = RequestContext(request)
 
-# 	# construct a dictionary to pass to the template engine as its context.
-# 	content = {}
+	# construct a dictionary to pass to the template engine as its context.
+	content = {}
 
-# 	return render_to_response('about/brians.html', content, context)
+	return render_to_response('event/guests.html', content, context)

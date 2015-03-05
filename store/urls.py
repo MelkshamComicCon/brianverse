@@ -1,5 +1,7 @@
 from django.conf.urls import patterns, url
-from store import views
+from event import views
 
 urlpatterns = patterns('',
-		url(r'^$', views.index, name='index'))
+	url(r'^$', 'store.views.store'),
+	url(r'^store/$', 'store.views.store'),
+)

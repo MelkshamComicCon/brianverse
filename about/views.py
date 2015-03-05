@@ -41,3 +41,13 @@ def history(request):
 	content = {}
 
 	return render_to_response('about/history.html', content, context)
+
+def contact(request):
+	# request the context of the request.
+	# the context contains information such as the client's machine details, for example
+	context = RequestContext(request)
+
+	# construct a dictionary to pass to the template engine as its context.
+	content = {}
+
+	return render_to_response('about/contact.html', content, context)
