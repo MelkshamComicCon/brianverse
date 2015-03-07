@@ -37,5 +37,7 @@
 ehthumbs.db
 Thumbs.db
 
+# Image Directories #
+#####################
+static/images/brians/
 
-#manage.py
