@@ -33,19 +33,21 @@
 	</div>
 
 	<nav class='navbar navbar-inverse navbar-fixed-top' role='navigation'>
-		<div class='modal fade'>
-			<div class='modal-dialog'>
-				<div class='modal-content'>
-					<div class='modal-header'>
-						<button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
-						<h4 class='modal-title'><i class='fa'>Email</i></h4>
-					</div>
+		<div class='container'>	
+			<div class='modal fade'>
+				<div class='modal-dialog'>
+					<div class='modal-content'>
+						<div class='modal-header'>
+							<button type='button' class='close' data-dismiss='modal' aria-hidden='true'>&times;</button>
+							<h4 class='modal-title'><i class='fa'>Email</i></h4>
+						</div>
 
-					<div class='modal-body'>
-						<p>For any general questions or queries please email Brian:</p>
-						<p><em>brian@melkshamcomiccon.com</em></p>
-						<p></p>
-						<p>If you would like to contact a specific team please look at our <a href='/about/contact'>Contact</a> page for further information.</p>
+						<div class='modal-body'>
+							<p>For any general questions or queries please email Brian:</p>
+							<p><em>brian@melkshamcomiccon.com</em></p>
+							<p></p>
+							<p>If you would like to contact a specific team please look at our <a href='/about/contact'>Contact</a> page for further information.</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -122,12 +124,16 @@
 			{% block content %}
 			{% endblock %}
 		</div>
-		<div class='panel col-md-3 text-center' style='margin-left: 30px;'>
-			<p><i class='fa'></i>Latest News</p>
+		<div class='panel col-md-3 text-center' style='margin-left: 30px;min-height: 235px;'>
+			<p>Latest News</p>
 			{% block newscontent %}
 			{% endblock %}
-			<p></p>
+			<br>
 		</div>
+		<!-- <div class='panel col-md-3 text-center' style='margin-left: 30px;margin-top: 10px;min-height: 235px;'>
+			<p>Latest Tweets</p>
+			<br>
+		</div> -->
 	</div>
 
 	<footer class='footer'>
