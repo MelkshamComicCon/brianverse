@@ -39,4 +39,4 @@ Thumbs.db
 
 # Image Directories #
 #####################
-./static/images/brians/
+/static/images/brians/
