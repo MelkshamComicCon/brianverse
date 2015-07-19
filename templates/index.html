@@ -78,6 +78,7 @@
                         <li><a href="#about">About</a></li>
                         <li><a href="#event">Event</a></li>
                         <li><a href="#brians">Brians</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
                         <li><a href="#store">Store</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -204,7 +205,7 @@
 		
 		
         <!--
-        Our Works
+        Our Event
         ==================================== -->
 		
 		<section id="event" class="works clearfix">
@@ -219,314 +220,108 @@
 					<div class="sec-sub-title text-center">
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 					</div>
-					
+
 					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
-						<ul class="text-center">
-							<li><a href="javascript:;" data-filter=".guests" class="active filter">Guests</a></li>
-							<li><a href="javascript:;" data-filter=".exhibitors" class="filter">Exhibitors</a></li>
-							<li><a href='#' class='dash-btn' data-toggle='modal' data-target='#panels'>Panels</a></li>
-							<li><a href="javascript:;" data-filter=".gallery" class="filter">Gallery</a></li>
-							<li><a href="javascript:;" data-filter=".supporters" class="filter">Supporters</a></li>
+						<ul class="nav nav-tabs nav-justified">
+							<li><a href="#guests" data-filter=".guests" class="active filter" aria-controls="guests" role="tab" data-toggle="tab">Guests</a></li>
+							<li><a href="#exhibitors" data-filter=".exhibitors" class="filter" aria-controls="exhibitors" role="tab" data-toggle="tab">Exhibitors</a></li>
+							<li><a href='#panels' data-filter=".panels" class="filter" aria-controls="panels" role="tab" data-toggle="tab">Panels</a></li>
+							<li><a href="#supporters" data-filter=".supporters" class="filter" aria-controls="supporters" role="tab" data-toggle="tab">Supporters</a></li>
 						</ul>
 					</div>
 					
+					<div class="tab-content">
+					
+						<!-- guests -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile guests col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade in active" id="guests">
+							<div class="member-thumb">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<figcaption class="overlay">
+									<h5>voluptatem quia voluptas </h5>
+									<p>sit aspernatur aut odit aut fugit,</p>
+									<ul class="social-links text-center">
+										<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+									</ul>
+								</figcaption>
+							</div>
+							<h4>John Filmr Doe</h4>
+							<span>Managing Director</span>
+						</figure>
+						<!-- end single member -->
+
+						<!-- exhibitors -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile exhibitors col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="exhibitors">
+							<div class="member-thumb">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<figcaption class="overlay">
+									<h5>voluptatem quia voluptas </h5>
+									<p>sit aspernatur aut odit aut fugit,</p>
+									<ul class="social-links text-center">
+										<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+									</ul>
+								</figcaption>
+							</div>
+							<h4>John Filmr Doe</h4>
+							<span>Managing Director</span>
+						</figure>
+						<!-- end single member -->
+
+						<!-- panels -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile panels col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="panels">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-2">
+										<h3>Saturday</h3>
+									</div>
+
+									<div class="col-md-2">
+										<h3>Sunday</h3>
+									</div>
+								</div>
+							</div>
+						</figure>
+						<!-- end single member -->
+
+						<!-- supporters -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile supporters col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="supporters">
+							<div class="member-thumb">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<figcaption class="overlay">
+									<h5>voluptatem quia voluptas </h5>
+									<p>sit aspernatur aut odit aut fugit,</p>
+									<ul class="social-links text-center">
+										<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+									</ul>
+								</figcaption>
+							</div>
+							<h4>John Filmr Doe</h4>
+							<span>Managing Director</span>
+						</figure>
+						<!-- end single member -->
+						
+					</div>
+
 				</div>
 			</div>
 			
-			<div class="project-wrapper">
-			
-				<!-- guests -->
-				<figure class="mix work-item guests">
-					<img src="/static/img/works/item-1.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox fancybox-modal" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item guests">
-					<img src="/static/img/works/item-1.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item guests">
-					<img src="/static/img/works/item-1.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-
-				<!-- exhibitors -->
-				<figure class="mix work-item exhibitors">
-					<img src="/static/img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item exhibitors">
-					<img src="/static/img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item exhibitors">
-					<img src="/static/img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item exhibitors">
-					<img src="/static/img/works/item-2.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-
-				<!-- gallery -->
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item gallery">
-					<img src="/static/img/works/item-4.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-			
-				<!-- supporters -->
-				<figure class="mix work-item supporters">
-					<img src="/static/img/works/item-5.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-5.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-
-				<!-- panels -->
-				<div id='panels' class='modal fade'>
-					<div class='modal-dialog'>
-						<!-- modal content -->
-						<div class='modal-content'>
-							<div class='modal-header panel-heading'>
-								<button type='button' class='close' data-dismiss='modal'>&times;</button>
-								<h4 class='modal-title'>Modal</h4>
-							</div>
-							<div class='modal-body'>
-								<p>Modal Body Text</p>
-							</div>
-							<div class='modal-footer'>
-								<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id='satpanel' class='modal fade'>
-					<div class='modal-dialog'>
-						<!-- modal content -->
-						<div class='modal-content'>
-							<div class='modal-header panel-heading'>
-								<button type='button' class='close' data-dismiss='modal'>&times;</button>
-								<h4 class='modal-title'>Modal</h4>
-							</div>
-							<div class='modal-body'>
-								<p>Modal Body Text</p>
-							</div>
-							<div class='modal-footer'>
-								<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id='sunpanel' class='modal fade'>
-					<div class='modal-dialog'>
-						<!-- modal content -->
-						<div class='modal-content'>
-							<div class='modal-header panel-heading'>
-								<button type='button' class='close' data-dismiss='modal'>&times;</button>
-								<h4 class='modal-title'>Modal</h4>
-							</div>
-							<div class='modal-body'>
-								<p>Modal Body Text</p>
-							</div>
-							<div class='modal-footer'>
-								<button type='button' class='btn btn-default' data-dismiss='modal'>Close</button>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- <figure class="mix work-item panels col-md-offset-2" style=''>
-					<img src="/static/img/works/item-3.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				<figure class="mix work-item panels col-md-offset-2" style=''>
-					<img src="/static/img/works/item-3.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-3.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure> -->
-
-				<!--
-				<figure class="mix work-item web">
-					<img src="img/works/item-6.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-6.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item logo-design">
-					<img src="img/works/item-7.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-7.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure>
-				
-				<figure class="mix work-item photography">
-					<img src="img/works/item-8.jpg" alt="">
-					<figcaption class="overlay">
-						<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="img/works/item-8.jpg"><i class="fa fa-eye fa-lg"></i></a>
-						<h4>Labore et dolore magnam</h4>
-						<p>Photography</p>
-					</figcaption>
-				</figure> -->
-				
-			</div>
-		
-
 		</section>
 		
         <!--
-        End Our Works
+        End Event
         ==================================== -->
 		
         <!--
-        Meet Our Team
+        Meet Brians
         ==================================== -->		
 		
 		<section id="brians" class="team">
@@ -779,8 +574,218 @@
 		</section>
 		
         <!--
-        End Meet Our Team
+        End Brians
         ==================================== -->
+
+        <!--
+        Gallery
+        ==================================== -->
+		
+		<section id="gallery" class="works clearfix">
+			<div class="container">
+				<div class="row">
+				
+					<div class="sec-title text-center">
+						<h2>Gallery</h2>
+						<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+					</div>
+					
+					<div class="sec-sub-title text-center">
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					</div>
+					
+					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+						<ul class="text-center">
+							<li><a href="javascript:;" data-filter=".2013" class="active filter">2013</a></li>
+							<li><a href="javascript:;" data-filter=".2014" class="filter">2014</a></li>
+							<li><a href="javascript:;" data-filter=".2015" class="filter">2015</a></li>
+						</ul>
+					</div>
+					
+					<div class="project-wrapper">
+					
+						<!-- 2013 -->
+						<figure class="mix work-item 2013">
+							<img src="/static/img/works/item-1.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox fancybox-modal" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2013">
+							<img src="/static/img/works/item-1.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2013">
+							<img src="/static/img/works/item-1.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<!-- 2014 -->
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<!-- 2015 -->
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+					
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+		
+        <!--
+        End Gallery
+        ==================================== -->
+
 		
         <!--
         The Store
@@ -799,81 +804,67 @@
 						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
 					</div>
 
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
-						<div class="member-thumb">
-							<img src="/static/img/team/member-1.png" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p><strong>Tickets for MCC2015 are now on sale!</strong></p>
+								<p>There is a £1 postage fee per transaction.</p>
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick" /> <input type="hidden" name="hosted_button_id" value="ABVHLSPRJRKEW" />
+								<table>
+								<tbody>
+								<tr>
+								</br>
+								<td><input type="hidden" name="on0" value="Ticket Type" />Ticket Type</td>
+								</tr>
+								<tr>
+								<td><select name="os0">
+								<option value="Saturday">Saturday £7.00 GBP</option>
+								<option value="Sunday">Sunday £7.00 GBP</option>
+								<option value="Weekend">Weekend £10.00 GBP</option>
+								</select></td>
+								</tr>
+								</tbody>
+								</table>
+								<input type="hidden" name="currency_code" value="GBP" /> <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" alt="PayPal – The safer, easier way to pay online." /> <img src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" alt="" width="1" height="1" /></form>
+								<h1 style="padding-left: 30px;"> </h1>
+							</div>
+
+							<div class="col-md-6">
+								<p>Now available, MCC2015 t-shirts!  If you order before the 1st May you will receive a one day ticket for <strong>FREE</strong>! Just remember to add your address and preferred day in the 'Note to Seller' box on PayPal.</p>
+								</br>
+								<div class="row">
+									<div class="col-xs-3 col-xs-offset-2">
+										<img src="/static/img/store/tshirts/i_am_brian.jpg" alt="" width="130" height="110" />
+									</div>
+									<div class="col-xs-3 col-xs-offset-2">
+										<img src="/static/img/store/tshirts/yellow_mcc.jpg" alt="" width="130" height="110" />
+									</div>
+								</div>
+
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick" /> <input type="hidden" name="hosted_button_id" value="GLSZQUU6T8AUL" />
+								<table>
+								<tbody>
+								<tr>
+								</br>
+								<td><input type="hidden" name="on0" value="Design &amp; Size" />Design &amp; Size</td>
+								</tr>
+								<tr>
+								<td><select name="os0">
+								<option value="Melksham Comic Con Logo - S">Melksham Comic Con Logo - S</option>
+								<option value="Melksham Comic Con Logo - M">Melksham Comic Con Logo - M</option>
+								<option value="Melksham Comic Con Logo - L">Melksham Comic Con Logo - L</option>
+								<option value="">"I Am Brian" - S</option>
+								<option value="">"I Am Brian" - M</option>
+								<option value="">"I Am Brian" - L</option>
+								</select></td>
+								</tr>
+								</tbody>
+								</table>
+								<input type="image" name="submit" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" alt="PayPal – The safer, easier way to pay online." /> <img src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" alt="" width="1" height="1" /></form>
+							</div>
 						</div>
-						<h4>John Filmr Doe</h4>
-						<span>Managing Director</span>
-					</figure>
-					<!-- end single member -->
-					
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
-						<div class="member-thumb">
-							<img src="/static/img/team/member-2.png" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Martin Matrone</h4>
-						<span>Lead Developer</span>
-					</figure>
-					<!-- end single member -->
-					
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="member-thumb">
-							<img src="/static/img/team/member-3.png" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>Steve Flaulkin</h4>
-						<span>Sr. UI Designer</span>
-					</figure>
-					<!-- end single member -->
-					
-					<!-- single member -->
-					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
-						<div class="member-thumb">
-							<img src="/static/img/team/member-1.png" alt="Team Member" class="img-responsive">
-							<figcaption class="overlay">
-								<h5>voluptatem quia voluptas </h5>
-								<p>sit aspernatur aut odit aut fugit,</p>
-								<ul class="social-links text-center">
-									<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
-									<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
-								</ul>
-							</figcaption>
-						</div>
-						<h4>John Filmr Doe</h4>
-						<span>Managing Director</span>
-					</figure>
-					<!-- end single member -->
+								<p>Keep an eye out for new products to become available!</p>
+					</div>
 					
 				</div>
 			</div>
@@ -1175,5 +1166,16 @@
 				});
 			});
 		</script>
+
+		<script type="text/javascript">
+			$('#myTabs a').click(function (e) {
+			  e.preventDefault()
+				$('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+				$('#myTabs a:first').tab('show') // Select first tab
+				$('#myTabs a:last').tab('show') // Select last tab
+				$('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
+			})
+		</script>
+
     </body>
 </html>
