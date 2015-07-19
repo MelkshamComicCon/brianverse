@@ -10,4 +10,4 @@ def home(request):
 	# construct a dictionary to pass to the template engine as its context.
 	content = {}
 
-	return render_to_response('index.html', content, context)
+	return render_to_response('/templates/index.html', content, context)

@@ -10,8 +10,8 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', include('frontpage.urls')),
-    url(r'^about/', include('about.urls')),
-    url(r'^event/', include('event.urls')),
-    url(r'^media/', include('media.urls')),
-    url(r'^store/', include('store.urls')),
+    # url(r'^about/', include('about.urls')),
+    # url(r'^event/', include('event.urls')),
+    # url(r'^media/', include('media.urls')),
+    # url(r'^store/', include('store.urls')),
 )

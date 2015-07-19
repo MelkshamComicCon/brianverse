@@ -22,12 +22,12 @@ MANAGERS = ADMINS
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
+#     }
+# }
 
 ALLOWED_HOSTS = ['*']
 
@@ -86,11 +86,11 @@ ROOT_URLCONF = 'brianverse.urls'
 WSGI_APPLICATION = 'brianverse.wsgi.application'
 
 INSTALLED_APPS = (
-    'frontpage',
-    'about',
-    'event',
-    'media',
-    'store',
+    # 'frontpage',
+    # 'about',
+    # 'event',
+    # 'media',
+    # 'store',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',
