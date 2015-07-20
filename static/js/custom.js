@@ -141,7 +141,7 @@ function initialize() {
     var marker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        icon: '/static/img/location-icon.png',
+        icon: 'http://melkshamcomiccon.com/test/brianverse/static/img/location-icon.png',
         title: '',
     });
 
