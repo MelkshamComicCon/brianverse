@@ -24,20 +24,20 @@
 		<!-- CSS
 		================================================== -->
 		<!-- Fontawesome Icon font -->
-        <link rel="stylesheet" href="http://melkshamcomiccon.com/test/brianverse/static/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
 		<!-- Twitter Bootstrap css -->
-        <link rel="stylesheet" href="http://melkshamcomiccon.com/test/brianverse/static/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
 		<!-- jquery.fancybox  -->
-        <link rel="stylesheet" href="http://melkshamcomiccon.com/test/brianverse/static/css/jquery.fancybox.css">
+        <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
 		<!-- animate -->
-        <link rel="stylesheet" href="http://melkshamcomiccon.com/test/brianverse/static/css/animate.css">
+        <link rel="stylesheet" href="/static/css/animate.css">
 		<!-- Main Stylesheet -->
-        <link rel="stylesheet" href="http://melkshamcomiccon.com/test/brianverse/static/css/main.css">
+        <link rel="stylesheet" href="/static/css/main.css">
 		<!-- media-queries -->
-        <link rel="stylesheet" href="http://melkshamcomiccon.com/test/brianverse/static/css/media-queries.css">
+        <link rel="stylesheet" href="/static/css/media-queries.css">
 
 		<!-- Modernizer Script for old Browsers -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/modernizr-2.6.2.min.js"></script>
+        <script src="/static/js/modernizr-2.6.2.min.js"></script>
 
     </head>
 	
@@ -45,7 +45,7 @@
 	
 		<!-- preloader -->
 		<div id="preloader">
-			<img src="http://melkshamcomiccon.com/test/brianverse/static/img/preloader.gif" alt="Preloader">
+			<img src="/static/img/preloader.gif" alt="Preloader">
 		</div>
 		<!-- end preloader -->
 
@@ -65,7 +65,7 @@
 					<!-- logo -->
                     <a class="navbar-brand" href="#body">
 						<h1 id="logo">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/logo.png" alt="MCC2015" style='width: 95px;'>
+							<img src="/static/img/logo.png" alt="MCC2015" style='width: 95px;'>
 						</h1>
 					</a>
 					<!-- /logo -->
@@ -111,7 +111,7 @@
 				<div class="carousel-inner" role="listbox">
 					
 					<!-- single slide -->
-					<div class="item active" style="background-image: url(http://melkshamcomiccon.com/test/brianverse/static/img/background/bg_complete_large3.png);">
+					<div class="item active" style="background-image: url(/static/img/background/bg_complete_large3.png);">
 						<div class="carousel-caption">
 							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to the<span> Brianverse</span>!</h2>
 							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated">The home of everything<span class="color"> MCC</span></h3>
@@ -236,7 +236,7 @@
 						<!-- single member -->
 						<figure role="tabpanel" class="guest-profile guests col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade in active" id="guests">
 							<div class="member-thumb">
-								<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 								<figcaption class="overlay">
 									<h5>voluptatem quia voluptas </h5>
 									<p>sit aspernatur aut odit aut fugit,</p>
@@ -256,7 +256,7 @@
 						<!-- single member -->
 						<figure role="tabpanel" class="guest-profile exhibitors col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="exhibitors">
 							<div class="member-thumb">
-								<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 								<figcaption class="overlay">
 									<h5>voluptatem quia voluptas </h5>
 									<p>sit aspernatur aut odit aut fugit,</p>
@@ -305,7 +305,7 @@
 						<!-- single member -->
 						<figure role="tabpanel" class="guest-profile supporters col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="supporters">
 							<div class="member-thumb">
-								<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 								<figcaption class="overlay">
 									<h5>voluptatem quia voluptas </h5>
 									<p>sit aspernatur aut odit aut fugit,</p>
@@ -352,7 +352,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Angry Brian</h5>
 								<ul class="social-links text-center">
@@ -370,7 +370,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Jurassic Brian</h5>
 								<ul class="social-links text-center">
@@ -387,7 +387,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Pirate Brian</h5>
 								<ul class="social-links text-center">
@@ -404,7 +404,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Always Eating Brian</h5>
 								<ul class="social-links text-center">
@@ -423,7 +423,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Brian's Mum</h5>
 								<ul class="social-links text-center">
@@ -440,7 +440,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Arty Brian</h5>
 								<ul class="social-links text-center">
@@ -457,7 +457,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Brian</h5>
 								<ul class="social-links text-center">
@@ -474,7 +474,7 @@
 					<!-- single member -->
 					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1200ms">
 						<div class="member-thumb">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
 							<figcaption class="overlay">
 								<h5 style="color: #D9230F;">Chef Brian</h5>
 								<ul class="social-links text-center">
@@ -526,25 +526,25 @@
 					
 						<!-- 2013 -->
 						<figure class="mix work-item 2013">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-1.jpg" alt="">
+							<img src="/static/img/works/item-1.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox fancybox-modal" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox fancybox-modal" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2013">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-1.jpg" alt="">
+							<img src="/static/img/works/item-1.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2013">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-1.jpg" alt="">
+							<img src="/static/img/works/item-1.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
@@ -552,34 +552,34 @@
 
 						<!-- 2014 -->
 						<figure class="mix work-item 2014">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg" alt="">
+							<img src="/static/img/works/item-2.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2014">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg" alt="">
+							<img src="/static/img/works/item-2.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2014">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg" alt="">
+							<img src="/static/img/works/item-2.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						
 						<figure class="mix work-item 2014">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg" alt="">
+							<img src="/static/img/works/item-2.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
@@ -587,109 +587,109 @@
 
 						<!-- 2015 -->
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-
-						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
-								<h4>Labore et dolore magnam</h4>
-								<p>Photography</p>
-							</figcaption>
-						</figure>
-						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
-							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
 						</figure>
 						<figure class="mix work-item 2015">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg" alt="">
+							<img src="/static/img/works/item-4.jpg" alt="">
 							<figcaption class="overlay">
-								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="http://melkshamcomiccon.com/test/brianverse/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
 								<h4>Labore et dolore magnam</h4>
 								<p>Photography</p>
 							</figcaption>
@@ -754,10 +754,10 @@
 								</br>
 								<div class="row">
 									<div class="col-xs-3 col-xs-offset-2">
-										<img src="http://melkshamcomiccon.com/test/brianverse/static/img/store/tshirts/i_am_brian.jpg" alt="" width="130" height="110" />
+										<img src="/static/img/store/tshirts/i_am_brian.jpg" alt="" width="130" height="110" />
 									</div>
 									<div class="col-xs-3 col-xs-offset-2">
-										<img src="http://melkshamcomiccon.com/test/brianverse/static/img/store/tshirts/yellow_mcc.jpg" alt="" width="130" height="110" />
+										<img src="/static/img/store/tshirts/yellow_mcc.jpg" alt="" width="130" height="110" />
 									</div>
 								</div>
 
@@ -936,7 +936,7 @@
 				
 					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
 						<div class="footer-single">
-							<img src="http://melkshamcomiccon.com/test/brianverse/static/img/logo.png" alt="" width='200px;'>
+							<img src="/static/img/logo.png" alt="" width='200px;'>
 							<p style="padding-left: 30px;">By the fans, for the fans!</p>
 						</div>
 					</div>
@@ -990,30 +990,30 @@
 		<!-- Essential jQuery Plugins
 		================================================== -->
 		<!-- Main jQuery -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery-1.11.1.min.js"></script>
+        <script src="/static/js/jquery-1.11.1.min.js"></script>
 		<!-- Single Page Nav -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery.singlePageNav.min.js"></script>
+        <script src="/static/js/jquery.singlePageNav.min.js"></script>
 		<!-- Twitter Bootstrap -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/bootstrap.min.js"></script>
 		<!-- jquery.fancybox.pack -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery.fancybox.pack.js"></script>
+        <script src="/static/js/jquery.fancybox.pack.js"></script>
 		<!-- jquery.mixitup.min -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery.mixitup.min.js"></script>
+        <script src="/static/js/jquery.mixitup.min.js"></script>
 		<!-- jquery.parallax -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery.parallax-1.1.3.js"></script>
+        <script src="/static/js/jquery.parallax-1.1.3.js"></script>
 		<!-- jquery.countTo -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery-countTo.js"></script>
+        <script src="/static/js/jquery-countTo.js"></script>
 		<!-- jquery.appear -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery.appear.js"></script>
+        <script src="/static/js/jquery.appear.js"></script>
 		<!-- Contact form validation -->
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
 		<!-- Google Map -->
         <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 		<!-- jquery easing -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/jquery.easing.min.js"></script>
+        <script src="/static/js/jquery.easing.min.js"></script>
 		<!-- jquery easing -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/wow.min.js"></script>
+        <script src="/static/js/wow.min.js"></script>
 		<script>
 			var wow = new WOW ({
 				boxClass:     'wow',      // animated element css class (default is wow)
@@ -1026,7 +1026,7 @@
 			wow.init();
 		</script> 
 		<!-- Custom Functions -->
-        <script src="http://melkshamcomiccon.com/test/brianverse/static/js/custom.js"></script>
+        <script src="/static/js/custom.js"></script>
 		
 		<script type="text/javascript">
 			$(function(){
