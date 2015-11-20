@@ -1021,7 +1021,8 @@
 							email: true
 						},
 						message: {
-							required: true
+							required: true,
+							minlength: 2
 						}
 					},
 					messages: {
@@ -1041,7 +1042,7 @@
 						$(form).ajaxSubmit({
 							type:"POST",
 							data: $(form).serialize(),
-							url:"process.php",
+							url:"process.php", // <<< What does this do, where is it???
 							success: function() {
 								$('#contact-form :input').attr('disabled', 'disabled');
 								$('#contact-form').fadeTo( "slow", 0.15, function() {
