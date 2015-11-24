@@ -40,3 +40,7 @@ Thumbs.db
 # Image Directories #
 #####################
 /static/images/brians/
+
+# Key file #
+############
+/brianverse/key.py
