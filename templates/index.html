@@ -121,6 +121,24 @@
 					
 					<!-- single slide -->
 					<div class="item active" style="background-image: url(http://melkshamcomiccon.com/test/brianverse/static/img/background/bg_complete_large3.png);">
+						<div id="clockdiv">
+							<div>
+								<span class="days"></span>
+								<div class="smalltext">Days</div>
+							</div>
+							<div>
+								<span class="hours"></span>
+								<div class="smalltext">Hours</div>
+							</div>
+							<div>
+								<span class="minutes"></span>
+								<div class="smalltext">Minutes</div>
+							</div>
+							<div>
+								<span class="seconds"></span>
+								<div class="smalltext">Seconds</div>
+							</div>
+						</div>
 					<!-- <div class="item active" style="background-image: url(/static/img/background/bg_complete_large3.png);"> -->
 						<div class="carousel-caption">
 							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to the<span> Brianverse</span>!</h2>
@@ -1078,6 +1096,12 @@
 			return false; 
 			} 
 		</script> 
+
+		<!-- countdown stuff -->
+		<script type="text/javascript" src="/static/js/countdown.js"></script>
+		<script type="text/javascript">
+			initialiseClock("clockdiv", deadline);
+		</script>
 
     </body>
 <script>
