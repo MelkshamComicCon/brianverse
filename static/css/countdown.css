@@ -29,7 +29,7 @@ h1{
 }
 
 #clockdiv div > span{
-	padding: 15px;
+	/*padding: 15px;*/
 	border-radius: 3px;
 	/*background: #00816A;*/
 	display: inline-block;
