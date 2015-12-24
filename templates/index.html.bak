@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+    <head>
+    	<!-- meta charec set -->
+        <meta charset="utf-8">
+		<!-- Always force latest IE rendering engine or request Chrome Frame -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!-- Page Title -->
+        <title>Brianverse MCC2015</title>		
+		<!-- Meta Description -->
+        <meta name="description" content="One Page Creative HTML5 Template">
+        <meta name="keywords" content="one page, single page, onepage, responsive, parallax, creative, business, html5, css3, css3 animation">
+        <meta name="author" content="Pirate Brian">
+		<!-- Mobile Specific Meta -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Google Font -->
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+		<!-- CSS
+		================================================== -->
+		<!-- Fontawesome Icon font -->
+        <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+		<!-- Twitter Bootstrap css -->
+        <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+		<!-- jquery.fancybox  -->
+        <link rel="stylesheet" href="/static/css/jquery.fancybox.css">
+		<!-- animate -->
+        <link rel="stylesheet" href="/static/css/animate.css">
+		<!-- Main Stylesheet -->
+        <link rel="stylesheet" href="/static/css/main.css">
+		<!-- media-queries -->
+        <link rel="stylesheet" href="/static/css/media-queries.css">
+
+		<!-- Modernizer Script for old Browsers -->
+        <script src="/static/js/modernizr-2.6.2.min.js"></script>
+
+    </head>
+	
+    <body id="body"> <!-- oncontextmenu="return disableRightClick();" --> 
+	
+		<!-- preloader -->
+		<div id="preloader">
+			<img src="/static/img/preloader.gif" alt="Preloader">
+		</div>
+		<!-- end preloader -->
+
+        <!-- 
+        Fixed Navigation
+        ==================================== -->
+        <header id="navigation" class="navbar-fixed-top navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="fa fa-bars fa-2x"></i>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+                    <a class="navbar-brand" href="#body">
+						<h1 id="logo">
+							<img src="/static/img/logo.png" alt="MCC2015" style='width: 95px;'>
+						</h1>
+					</a>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li class="current"><a href="#body">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#event">Event</a></li>
+                        <li><a href="#brians">Brians</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#store">Store</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+				<!-- /main nav -->
+				
+            </div>
+        </header>
+        <!--
+        End Fixed Navigation
+        ==================================== -->
+		
+		
+		
+        <!--
+        Home Slider
+        ==================================== -->
+		
+		<section id="slider">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			
+				<!-- Indicators bullet -->
+				<!-- <ol class="carousel-indicators">
+					<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				</ol> -->
+				<!-- End Indicators bullet -->				
+				
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+					
+					<!-- single slide -->
+					<div class="item active" style="background-image: url(/static/img/background/bg_complete_large3.png);">
+						<div class="carousel-caption">
+							<h2 data-wow-duration="700ms" data-wow-delay="500ms" class="wow bounceInDown animated">Welcome to the<span> Brianverse</span>!</h2>
+							<h3 data-wow-duration="1000ms" class="wow slideInLeft animated">The home of everything<span class="color"> MCC</span></h3>
+							<!-- <p data-wow-duration="1000ms" class="wow slideInRight animated"></p> -->
+							
+							<ul class="social-links text-center">
+								<li><a href="https://twitter.com/Melksham_Con" target='_blank'><i class="fa fa-twitter fa-3x" style="color:white;"></i></a></li>
+								<li><a href="https://www.facebook.com/melkshamcomiccon" target='_blank'><i class="fa fa-facebook fa-3x" style="color:white;"></i></a></li>
+								<!-- <li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+								<li><a href=""><i class="fa fa-dribbble fa-lg"></i></a></li> -->
+							</ul>
+						</div>
+					</div>
+					<!-- end single slide -->
+			
+				</div>
+				<!-- End Wrapper for slides -->
+				
+			</div>
+		</section>
+		
+        <!--
+        End Home SliderEnd
+        ==================================== -->
+		
+        <!--
+        Features
+        ==================================== -->
+		
+		<section id="about" class="features">
+			<div class="container">
+				<div class="row">
+				
+					<div class="sec-title text-center mb50 wow bounceInDown animated" data-wow-duration="500ms">
+						<h2>About</h2>
+						<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+					</div>
+
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInLeft" data-wow-duration="500ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-child fa-2x"></i>
+							</div>
+							
+							<div class="service-desc">
+								<h3>Who we are...</h3>
+								<p>Melksham Comic Con is a non-profit event that celebrates and promotes comic books and sequential art in its many forms, from web comics, independent works, publishers, printers, retailers and so much more!</p>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+					
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-group fa-2x"></i>
+							</div>
+							
+							<div class="service-desc">
+								<h3>Who we're for...</h3>
+								<p>We’re the perfect convention for people who have never been to one, or want to see what it’s all about.</p>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+					
+					<!-- service item -->
+					<div class="col-md-4 wow fadeInRight" data-wow-duration="500ms"  data-wow-delay="900ms">
+						<div class="service-item">
+							<div class="service-icon">
+								<i class="fa fa-map-marker fa-2x"></i>
+							</div>
+							
+							<div class="service-desc">
+								<h3>Where are we?</h3>
+								<p>Taking place in the heart of Wiltshire, surrounded by beautiful countryside! Locate us <a href="#map_canvas" style="color: #6a737b">here</a>.</p>
+							</div>
+						</div>
+					</div>
+					<!-- end service item -->
+						
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End Features
+        ==================================== -->
+		
+		
+        <!--
+        Our Event
+        ==================================== -->
+		
+		<section id="event" class="works clearfix">
+			<div class="container">
+				<div class="row">
+				
+					<div class="sec-title text-center">
+						<h2>The Convention</h2>
+						<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+					</div>
+					
+					<div class="sec-sub-title text-center">
+						<p></p>
+					</div>
+
+					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+						<ul class="nav nav-tabs nav-justified">
+							<li><a href="#guests" data-filter=".guests" class="active filter" aria-controls="guests" role="tab" data-toggle="tab">Guests</a></li>
+							<li><a href="#exhibitors" data-filter=".exhibitors" class="filter" aria-controls="exhibitors" role="tab" data-toggle="tab">Exhibitors</a></li>
+							<li><a href='#panels' data-filter=".panels" class="filter" aria-controls="panels" role="tab" data-toggle="tab">Panels</a></li>
+							<li><a href="#supporters" data-filter=".supporters" class="filter" aria-controls="supporters" role="tab" data-toggle="tab">Supporters</a></li>
+						</ul>
+					</div>
+					
+					<div class="tab-content">
+					
+						<!-- guests -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile guests col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade in active" id="guests">
+							<div class="member-thumb">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<figcaption class="overlay">
+									<h5>voluptatem quia voluptas </h5>
+									<p>sit aspernatur aut odit aut fugit,</p>
+									<ul class="social-links text-center">
+										<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+									</ul>
+								</figcaption>
+							</div>
+							<h4>John Filmr Doe</h4>
+							<span>Managing Director</span>
+						</figure>
+						<!-- end single member -->
+
+						<!-- exhibitors -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile exhibitors col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="exhibitors">
+							<div class="member-thumb">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<figcaption class="overlay">
+									<h5>voluptatem quia voluptas </h5>
+									<p>sit aspernatur aut odit aut fugit,</p>
+									<ul class="social-links text-center">
+										<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+									</ul>
+								</figcaption>
+							</div>
+							<h4>John Filmr Doe</h4>
+							<span>Managing Director</span>
+						</figure>
+						<!-- end single member -->
+
+						<!-- panels -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile panels col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="panels">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-6 col-xs-6">
+										<h3>Saturday</h3>
+										<div class="col-md-2 col-xs-2">
+											<p>Time</p>
+										</div>
+										<div class="col-md-10 col-xs-10">
+											<p>Info</p>
+										</div>
+									</div>
+
+									<div class="col-md-6 col-xs-6">
+										<h3>Sunday</h3>
+										<div class="col-md-2 col-xs-2">
+											<p>Time</p>
+										</div>
+										<div class="col-md-10 col-xs-10">
+											<p>Info</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</figure>
+						<!-- end single member -->
+
+						<!-- supporters -->
+						<!-- single member -->
+						<figure role="tabpanel" class="guest-profile supporters col-md-3 col-sm-6 col-xs-12 text-center tab-pane fade" id="supporters">
+							<div class="member-thumb">
+								<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+								<figcaption class="overlay">
+									<h5>voluptatem quia voluptas </h5>
+									<p>sit aspernatur aut odit aut fugit,</p>
+									<ul class="social-links text-center">
+										<li><a href=""><i class="fa fa-twitter fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-facebook fa-lg"></i></a></li>
+										<li><a href=""><i class="fa fa-google-plus fa-lg"></i></a></li>
+									</ul>
+								</figcaption>
+							</div>
+							<h4>John Filmr Doe</h4>
+							<span>Managing Director</span>
+						</figure>
+						<!-- end single member -->
+						
+					</div>
+
+				</div>
+			</div>
+			
+		</section>
+		
+        <!--
+        End Event
+        ==================================== -->
+		
+        <!--
+        Meet Brians
+        ==================================== -->		
+		
+		<section id="brians" class="team">
+			<div class="container">
+				<div class="row">
+		
+					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+						<h2>Meet The Brians</h2>
+						<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+					</div>
+					
+					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+						<p>MCC is run completely by volunteers.  Beginning as a small group of friends, we have now expanded to over 30 Con day volunteers</p>
+					</div>
+
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Angry Brian</h5>
+								<ul class="social-links text-center">
+									<li><a href="https://twitter.com/SpencerEvent" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="https://www.facebook.com/hspence85" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Hayley</h4>
+						<span>Founder, Director and Secretary</span>
+					</figure>
+					<!-- end single member -->
+					
+					
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Jurassic Brian</h5>
+								<ul class="social-links text-center">
+									<li><a href="https://twitter.com/FlappyHowserton" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="https://www.facebook.com/our.name.is.brian" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Gatty</h4>
+						<span>Director</span>
+					</figure>
+					<!-- end single member -->
+					
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Pirate Brian</h5>
+								<ul class="social-links text-center">
+									<li><a href="https://twitter.com/pyratebeard" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="https://www.facebook.com/dudley.burrows9" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Dudley</h4>
+						<span>Director and Technical Officer</span>
+					</figure>
+					<!-- end single member -->
+
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Always Eating Brian</h5>
+								<ul class="social-links text-center">
+									<li><a href="https://twitter.com/scampi1822" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="https://www.facebook.com/mark.scammell" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Mark</h4>
+						<span>Director and Vice Chair</span>
+					</figure>
+					<!-- end single member -->
+
+					<!--NEW ROW-->
+
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Brian's Mum</h5>
+								<ul class="social-links text-center">
+									<!-- <li><a href="" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li> -->
+									<li><a href="https://www.facebook.com/kathy.iles" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Kathy</h4>
+						<span>Director and Sponsorship &#38; Promotions Leader</span>
+					</figure>
+					<!-- end single member -->
+
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Arty Brian</h5>
+								<ul class="social-links text-center">
+									<li><a href="" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Chailey</h4>
+						<span>Chair and Art Leader</span>
+					</figure>
+					<!-- end single member -->
+					
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Brian</h5>
+								<ul class="social-links text-center">
+									<li><a href="" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Who?</h4>
+						<span>Treasurer</span>
+					</figure>
+					<!-- end single member -->
+					
+					<!-- single member -->
+					<figure class="team-member col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="1200ms">
+						<div class="member-thumb">
+							<img src="/static/img/team/brian_member.png" alt="Team Member" class="img-responsive">
+							<figcaption class="overlay">
+								<h5 style="color: #D9230F;">Chef Brian</h5>
+								<ul class="social-links text-center">
+									<li><a href="" target="_blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+									<li><a href="" target="_blank"><i class="fa fa-facebook fa-lg"></i></a></li>
+								</ul>
+							</figcaption>
+						</div>
+						<h4>Hannah</h4>
+						<span>Logistics Leader</span>
+					</figure>
+					<!-- end single member -->
+					
+
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End Brians
+        ==================================== -->
+
+        <!--
+        Gallery
+        ==================================== -->
+		
+		<section id="gallery" class="works clearfix">
+			<div class="container">
+				<div class="row">
+				
+					<div class="sec-title text-center">
+						<h2>Gallery</h2>
+						<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+					</div>
+					
+					<div class="sec-sub-title text-center">
+						<p>We have had some amazing moments over the years, here are just a few...</p>
+					</div>
+					
+					<div class="work-filter wow fadeInRight animated" data-wow-duration="500ms">
+						<ul class="text-center">
+							<li><a href="javascript:;" data-filter=".2013" class="active filter">2013</a></li>
+							<li><a href="javascript:;" data-filter=".2014" class="filter">2014</a></li>
+							<li><a href="javascript:;" data-filter=".2015" class="filter">2015</a></li>
+						</ul>
+					</div>
+					
+					<div class="project-wrapper">
+					
+						<!-- 2013 -->
+						<figure class="mix work-item 2013">
+							<img src="/static/img/works/item-1.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox fancybox-modal" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2013">
+							<img src="/static/img/works/item-1.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2013">
+							<img src="/static/img/works/item-1.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-1.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<!-- 2014 -->
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						
+						<figure class="mix work-item 2014">
+							<img src="/static/img/works/item-2.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-2.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<!-- 2015 -->
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+						<figure class="mix work-item 2015">
+							<img src="/static/img/works/item-4.jpg" alt="">
+							<figcaption class="overlay">
+								<a class="fancybox" rel="works" title="Write Your Image Caption Here" href="/static/img/works/item-4.jpg"><i class="fa fa-eye fa-lg"></i></a>
+								<h4>Labore et dolore magnam</h4>
+								<p>Photography</p>
+							</figcaption>
+						</figure>
+					
+					</div>
+
+				</div>
+			</div>
+
+		</section>
+		
+        <!--
+        End Gallery
+        ==================================== -->
+
+		
+        <!--
+        The Store
+        ==================================== -->		
+		
+		<section id="store" class="store">
+			<div class="container">
+				<div class="row">
+		
+					<div class="sec-title text-center wow fadeInUp animated" data-wow-duration="700ms">
+						<h2>The Store</h2>
+						<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+					</div>
+					
+					<div class="sec-sub-title text-center wow fadeInRight animated" data-wow-duration="500ms">
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+					</div>
+
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<p><strong>Tickets for MCC2015 are now on sale!</strong></p>
+								<p>There is a £1 postage fee per transaction.</p>
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick" /> <input type="hidden" name="hosted_button_id" value="ABVHLSPRJRKEW" />
+								<table>
+								<tbody>
+								<tr>
+								</br>
+								<td><input type="hidden" name="on0" value="Ticket Type" />Ticket Type</td>
+								</tr>
+								<tr>
+								<td><select name="os0">
+								<option value="Saturday">Saturday £7.00 GBP</option>
+								<option value="Sunday">Sunday £7.00 GBP</option>
+								<option value="Weekend">Weekend £10.00 GBP</option>
+								</select></td>
+								</tr>
+								</tbody>
+								</table>
+								<input type="hidden" name="currency_code" value="GBP" /> <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" alt="PayPal – The safer, easier way to pay online." /> <img src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" alt="" width="1" height="1" /></form>
+								<h1 style="padding-left: 30px;"> </h1>
+							</div>
+
+							<div class="col-md-6">
+								<p>Now available, MCC2015 t-shirts!  If you order before the 1st May you will receive a one day ticket for <strong>FREE</strong>! Just remember to add your address and preferred day in the 'Note to Seller' box on PayPal.</p>
+								</br>
+								<div class="row">
+									<div class="col-xs-3 col-xs-offset-2">
+										<img src="/static/img/store/tshirts/i_am_brian.jpg" alt="" width="130" height="110" />
+									</div>
+									<div class="col-xs-3 col-xs-offset-2">
+										<img src="/static/img/store/tshirts/yellow_mcc.jpg" alt="" width="130" height="110" />
+									</div>
+								</div>
+
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick" /> <input type="hidden" name="hosted_button_id" value="GLSZQUU6T8AUL" />
+								<table>
+								<tbody>
+								<tr>
+								</br>
+								<td><input type="hidden" name="on0" value="Design &amp; Size" />Design &amp; Size</td>
+								</tr>
+								<tr>
+								<td><select name="os0">
+								<option value="Melksham Comic Con Logo - S">Melksham Comic Con Logo - S</option>
+								<option value="Melksham Comic Con Logo - M">Melksham Comic Con Logo - M</option>
+								<option value="Melksham Comic Con Logo - L">Melksham Comic Con Logo - L</option>
+								<option value="">"I Am Brian" - S</option>
+								<option value="">"I Am Brian" - M</option>
+								<option value="">"I Am Brian" - L</option>
+								</select></td>
+								</tr>
+								</tbody>
+								</table>
+								<input type="image" name="submit" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" alt="PayPal – The safer, easier way to pay online." /> <img src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" alt="" width="1" height="1" /></form>
+							</div>
+						</div>
+								<p>Keep an eye out for new products to become available!</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End The Store
+        ==================================== -->
+
+		<!--
+        Some fun facts
+        ==================================== -->		
+		
+		<section id="facts" class="facts">
+			<div class="parallax-overlay">
+				<div class="container">
+					<div class="row number-counters">
+						
+						<div class="sec-title text-center mb50 wow rubberBand animated" data-wow-duration="1000ms">
+							<h2>Some Fun Facts</h2>
+							<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+						</div>
+						
+						<!-- first count item -->
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms">
+							<div class="counters-item">
+								<i class="fa fa-clock-o fa-3x"></i>
+								<strong data-to="3200">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Hours of Work</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+							<div class="counters-item">
+								<i class="fa fa-users fa-3x"></i>
+								<strong data-to="1200">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Tickets Sold</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+							<div class="counters-item">
+								<i class="fa fa-rocket fa-3x"></i>
+								<strong data-to="360">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Number of Cosplayers</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+							<div class="counters-item">
+								<i class="fa fa-trophy fa-3x"></i>
+								<strong data-to="">0</strong>
+								<!-- Set Your Number here. i,e. data-to="56" -->
+								<p>Awards Won... so far...</p>
+							</div>
+						</div>
+						<!-- end first count item -->
+				
+					</div>
+				</div>
+			</div>
+		</section>
+		
+        <!--
+        End Some fun facts
+        ==================================== -->
+		
+		
+		<!--
+        Contact Us
+        ==================================== -->		
+		
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="row mb50">
+				
+					<div class="sec-title text-center mb50 wow fadeInDown animated" data-wow-duration="500ms">
+						<h2>Get In Touch!</h2>
+						<div class="devider"><i class="fa fa-circle-o fa-lg"></i></div>
+					</div>
+					
+					<div class="sec-sub-title text-center wow rubberBand animated" data-wow-duration="1000ms">
+						<p>We are dedicated to making a convention for the fans.  If you have any comments, suggestions, or gripes, please let us know!</p>
+					</div>
+					
+					<!-- contact address -->
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-12 wow fadeInLeft animated" data-wow-duration="500ms">
+						<div class="contact-address">
+							<h3>Send us a postcode!</h3>
+							<p>fo. Komix, The Roundhouse</p>
+							<p>Melksham, Wiltshire.</p>
+							<p>(+44) 1234 567</p>
+						</div>
+					</div>
+					<!-- end contact address -->
+					
+					<!-- contact form -->
+					<div class="col-lg-8 col-md-8 col-sm-7 col-xs-12 wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="contact-form">
+							<h3>Say Hello!</h3>
+							<form action="#" id="contact-form">
+								<div class="input-group name-email">
+									<div class="input-field">
+										<input type="text" name="name" id="name" placeholder="Name" class="form-control">
+									</div>
+									<div class="input-field">
+										<input type="email" name="email" id="email" placeholder="Email" class="form-control">
+									</div>
+								</div>
+								<div class="input-group">
+									<textarea name="message" id="message" placeholder="Message" class="form-control"></textarea>
+								</div>
+								<div class="input-group">
+									<input type="submit" id="form-submit" class="pull-right" value="Send message">
+								</div>
+							</form>
+						</div>
+					</div>
+					<!-- end contact form -->
+					
+					<!-- footer social links -->
+					<div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 wow fadeInRight animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<ul class="footer-social">
+							<!-- <li><a href="https://www.behance.net/Themefisher"><i class="fa fa-behance fa-2x"></i></a></li> -->
+							<li><a href="https://www.twitter.com/Melksham_Con" target='_blank'><i class="fa fa-twitter fa-2x"></i></a></li>
+							<!-- <li><a href="https://dribbble.com/themefisher"><i class="fa fa-dribbble fa-2x"></i></a></li> -->
+							<li><a href="https://www.facebook.com/melkshamcomiccon" target='_blank'><i class="fa fa-facebook fa-2x"></i></a></li>
+						</ul>
+					</div>
+					<!-- end footer social links -->
+					
+				</div>
+			</div>
+			
+			<!-- Google map -->
+			<div id="map_canvas" class="wow bounceInDown animated" data-wow-duration="500ms"></div>
+			<!-- End Google map -->
+			
+		</section>
+		
+        <!--
+        End Contact Us
+        ==================================== -->
+		
+		
+		<footer id="footer" class="footer">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms">
+						<div class="footer-single">
+							<img src="/static/img/logo.png" alt="" width='200px;'>
+							<p style="padding-left: 30px;">By the fans, for the fans!</p>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="300ms">
+						<div class="footer-single">
+							<h6>Donate</h6>
+							<p>You can help MCC by donating through PayPal by clicking below;</p>
+							</br>
+							<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="cmd" value="_s-xclick" /> <input type="hidden" name="hosted_button_id" value="PDSKZH7J2LZNS" /> <input type="image" name="submit" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" alt="PayPal – The safer, easier way to pay online." /> <img src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" alt="" width="1" height="1" /></form>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="600ms">
+						<div class="footer-single">
+							<h6>Social Networking</h6>
+							<ul>
+								<li><a href="https://twitter.com/Melksham_Con" target="_blank">Twitter</a></li>
+								<li><a href="https://facebook.com/melkshamcomiccon" target="_blank">Facebook</a></li>
+								<li><a href="https://www.youtube.com/watch?v=VrA0Z09W7vo" target="_blank">Youtube</a></li>
+								<!-- <li><a href="#"></a></li> -->
+							</ul>
+						</div>
+					</div>
+				
+					<div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="900ms">
+						<div class="footer-single">
+							<h6>Contact</h6>
+							<ul>
+								<li><a href="#contact">Contact Us</a></li>
+								<li><a href="#">Press Contact</a></li>
+								<li><a href="#">Webmaster</a></li>
+								<!-- <li><a href="#">Donate</a></li> -->
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<p class="copyright text-center">
+							Copyright © 2015 <a href="http://melkshamcomiccon.com/" target='_blank'>Melksham Comic Con</a>. All rights reserved - theme based on <a href="http://themefisher.com/" target='_blank'>Themefisher</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<a href="javascript:void(0);" id="back-top"><i class="fa fa-angle-up fa-3x"></i></a>
+
+		<!-- Essential jQuery Plugins
+		================================================== -->
+		<!-- Main jQuery -->
+        <script src="/static/js/jquery-1.11.1.min.js"></script>
+		<!-- Single Page Nav -->
+        <script src="/static/js/jquery.singlePageNav.min.js"></script>
+		<!-- Twitter Bootstrap -->
+        <script src="/static/js/bootstrap.min.js"></script>
+		<!-- jquery.fancybox.pack -->
+        <script src="/static/js/jquery.fancybox.pack.js"></script>
+		<!-- jquery.mixitup.min -->
+        <script src="/static/js/jquery.mixitup.min.js"></script>
+		<!-- jquery.parallax -->
+        <script src="/static/js/jquery.parallax-1.1.3.js"></script>
+		<!-- jquery.countTo -->
+        <script src="/static/js/jquery-countTo.js"></script>
+		<!-- jquery.appear -->
+        <script src="/static/js/jquery.appear.js"></script>
+		<!-- Contact form validation -->
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+		<!-- Google Map -->
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<!-- jquery easing -->
+        <script src="/static/js/jquery.easing.min.js"></script>
+		<!-- jquery easing -->
+        <script src="/static/js/wow.min.js"></script>
+		<script>
+			var wow = new WOW ({
+				boxClass:     'wow',      // animated element css class (default is wow)
+				animateClass: 'animated', // animation css class (default is animated)
+				offset:       120,          // distance to the element when triggering the animation (default is 0)
+				mobile:       false,       // trigger animations on mobile devices (default is true)
+				live:         true        // act on asynchronously loaded content (default is true)
+			  }
+			);
+			wow.init();
+		</script> 
+		<!-- Custom Functions -->
+        <script src="/static/js/custom.js"></script>
+		
+		<script type="text/javascript">
+			$(function(){
+				/* ========================================================================= */
+				/*	Contact Form
+				/* ========================================================================= */
+				
+				$('#contact-form').validate({
+					rules: {
+						name: {
+							required: true,
+							minlength: 2
+						},
+						email: {
+							required: true,
+							email: true
+						},
+						message: {
+							required: true
+						}
+					},
+					messages: {
+						name: {
+							required: "come on, you have a name don't you?",
+							minlength: "your name must consist of at least 2 characters"
+						},
+						email: {
+							required: "no email, no message"
+						},
+						message: {
+							required: "um...yea, you have to write something to send this form.",
+							minlength: "thats all? really?"
+						}
+					},
+					submitHandler: function(form) {
+						$(form).ajaxSubmit({
+							type:"POST",
+							data: $(form).serialize(),
+							url:"process.php",
+							success: function() {
+								$('#contact-form :input').attr('disabled', 'disabled');
+								$('#contact-form').fadeTo( "slow", 0.15, function() {
+									$(this).find(':input').attr('disabled', 'disabled');
+									$(this).find('label').css('cursor','default');
+									$('#success').fadeIn();
+								});
+							},
+							error: function() {
+								$('#contact-form').fadeTo( "slow", 0.15, function() {
+									$('#error').fadeIn();
+								});
+							}
+						});
+					}
+				});
+			});
+		</script>
+
+		<script type="text/javascript">
+			$('#myTabs a').click(function (e) {
+			  e.preventDefault()
+				$('#myTabs a[href="#profile"]').tab('show') // Select tab by name
+				$('#myTabs a:first').tab('show') // Select first tab
+				$('#myTabs a:last').tab('show') // Select last tab
+				$('#myTabs li:eq(2) a').tab('show') // Select third tab (0-indexed)
+			})
+		</script>
+
+		<script type="text/javascript"> 
+			function disableRightClick() 
+			{ 
+			alert("Sorry, that is not allowed!!"); 
+			return false; 
+			} 
+		</script> 
+
+    </body>
+</html>

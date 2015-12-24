@@ -4,6 +4,7 @@
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+import key
 
 SETTINGS_DIR = os.path.dirname(__file__)
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
@@ -22,12 +23,12 @@ MANAGERS = ADMINS
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': os.path.join(PROJECT_PATH, 'db.sqlite3'),
+#     }
+# }
 
 ALLOWED_HOSTS = ['*']
 
@@ -71,7 +72,7 @@ TEMPLATE_DIRS = (
 )
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '-d4*qtwf*$rocf*j(d_v-mgx%c+@0)li(l-*ai1#496=hu4a@e'
+SECRET_KEY = key.SECRET_KEY
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -86,11 +87,11 @@ ROOT_URLCONF = 'brianverse.urls'
 WSGI_APPLICATION = 'brianverse.wsgi.application'
 
 INSTALLED_APPS = (
-    'frontpage',
-    'about',
-    'event',
-    'media',
-    'store',
+    # 'frontpage',
+    # 'about',
+    # 'event',
+    # 'media',
+    # 'store',
 
     'django.contrib.auth',
     'django.contrib.contenttypes',
