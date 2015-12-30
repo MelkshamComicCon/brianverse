@@ -1,8 +1,8 @@
 <?php
 
-    $to = "";
+    $to = "tech@melkshamcomiccon.com";
     $from = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
+    $subject = "MCC Website Message" // $_REQUEST['subject'];
     $name = $_REQUEST['name'];
     $headers = "From: $from";
 
