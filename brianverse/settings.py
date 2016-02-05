@@ -71,7 +71,8 @@ TEMPLATE_DIRS = (
 )
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = key.SECRET_KEY
+with open('/etc/brianverse.key') as f:
+    SECRET_KEY = f.read().strip()
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
