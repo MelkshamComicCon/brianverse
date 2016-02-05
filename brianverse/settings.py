@@ -4,7 +4,6 @@
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
-import key
 
 SETTINGS_DIR = os.path.dirname(__file__)
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
@@ -71,7 +70,8 @@ TEMPLATE_DIRS = (
 )
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = key.SECRET_KEY
+with open('/etc/brianverse.key') as f:
+    SECRET_KEY = f.read().strip()
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
