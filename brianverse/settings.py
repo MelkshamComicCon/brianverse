@@ -9,6 +9,10 @@ SETTINGS_DIR = os.path.dirname(__file__)
 PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 
+# SECURITY WARNING: keep the secret key used in production secret!
+with open('/etc/brianverse.key') as f:
+    SECRET_KEY = f.read().strip()
+    
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
@@ -69,9 +73,6 @@ TEMPLATE_DIRS = (
     TEMPLATE_PATH,
 )
 
-# SECURITY WARNING: keep the secret key used in production secret!
-with open('/etc/brianverse.key') as f:
-    SECRET_KEY = f.read().strip()
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
